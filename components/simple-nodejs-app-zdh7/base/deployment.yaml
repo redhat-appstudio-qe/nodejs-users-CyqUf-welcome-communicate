@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: simple-nodejs-app-zdh7
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-ctij-tenant/nodejs-users/simple-nodejs-app-zdh7@sha256:9c008b66c008e717014bdcffeb4f1de248eb06455731b21e5cdc1e591edad34c
         name: my-nodejs
         ports:
         - containerPort: 3001
